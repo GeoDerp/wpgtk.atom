@@ -14,25 +14,22 @@
 **wpgtk-one-dark-ui** = An Hacked Version of Atom's [one-dark](https://github.com/atom/one-dark-ui) UI theme  
 **wpgtk-theme-syntax** = An Basic generated Syntax Theme
 
-## Installation
-*(Before implementing, make sure you have both [Atom](https://atom.io/) and [wpgtk](https://github.com/deviantfero/wpgtk) installed)*
-
-
-**There are two different approaches of installing these themes:**
-
+## Installation 
+**There are two different approaches of installing these themes:**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*(Before implementing, make sure you have both [Atom](https://atom.io/) and [wpgtk](https://github.com/deviantfero/wpgtk) installed)*
+  
 ### Approach one - *manually*  
-  Is to simply *(after downloading the git repo)* manually drag the ```wpgtk-one-dark-ui``` &  ```wpgtk-theme-syntax```  folders into the .atom dir (``~/.atom``).   
-  Then, drag the wpgtk Templates (*the base files in the templates' dir*) into  ``~/config/wpg/templates/ folder``.     
+  - simply *(after downloading the git repo)* manually drag the `wpgtk-one-dark-ui` &  `wpgtk-theme-syntax`  folders into the .atom dir (``~/.atom``).   
+  - Then, drag the wpgtk Templates (*the base files in the templates' dir*) into  ``~/config/wpg/templates/ folder``.     
    
- Open wpgtk (wpg) app and in *Templates* re add the symlink for the two config files:      
-    **Templates** Tab > **Add** >  
-    ``` 
-    ~/.atom/packages/wpgtk-theme-syntax/styles/colors.less    
-    ~/.atom/packages/wpgtk-one-dark-ui/styles/ui-variables-custom.less    
-    ```
+  - Open wpgtk (wpg) app and in *Templates Tab* readd the symlink for the two config files:     
+    ``Templates Tab > Add > ``   
+    ``~/.atom/packages/wpgtk-theme-syntax/styles/colors.less ``      
+    ``~/.atom/packages/wpgtk-one-dark-ui/styles/ui-variables-custom.less`` <br/>
   
 ### Approach two - *command line (**Recommended**)*
   In your terminal of choice, Past the following lines:
+  
   ```bash
   cd ~/
   git clone https://github.com/GeoDerp/wpgtk.atom
@@ -48,13 +45,14 @@
   sudo rm -r ~/wpgtk.atom
   ```
 
-### Note:
-If you want Atom's theme to automatically change colours live you will have to run atom in **dev** mode.  
-  *"To open a Dev Mode Atom window run `atom --dev .` in the terminal, or use the _View > Developer > Open in Dev Mode_ menu. When you edit your theme, changes will instantly be reflected!"* - *[Creating a Theme. Retrieved from https://flight-manual.atom.io/hacking-atom/sections/creating-a-theme/](https://flight-manual.atom.io/hacking-atom/sections/creating-a-theme/)*
-  
-  
+### Note:  
+If you want Atom's theme to automatically change colours live you will have to run atom in **dev** mode. <br/>  
+  > *"To open a Dev Mode Atom window run `atom --dev .` in the terminal, or use `the _View > Developer > Open` in Dev Mode_ menu. When you edit your theme, changes will instantly be reflected!"*  < 
+[Creating a Theme. Retrieved from https://flight-manual.atom.io/hacking-atom/sections/creating-a-theme/](https://flight-manual.atom.io/hacking-atom/sections/creating-a-theme/)
+<br/>  
+   
 **Welp**, I hope you like it :blush: :smiley:.
   Feel free to let me know if there are any improvements/changes you will like me to make :smile:.
   
 *sincerely*,   
-  [**GeoDerp**](https://github.com/GeoDerp)
+&nbsp;&nbsp;&nbsp;[**GeoDerp**](https://github.com/GeoDerp)
