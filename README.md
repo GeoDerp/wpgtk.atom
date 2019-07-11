@@ -4,7 +4,7 @@
 <a href="https://github.com/deviantfero/wpgtk"><img src="https://img.shields.io/badge/package-wpgtk-red.svg?style=for-the-badge&logo="></a>
 <a href="https://github.com/atom/one-dark-ui"><img src="https://img.shields.io/badge/UI%20theme-One%20Dark-brightgreen.svg?style=for-the-badge&logo=Atom"></a>
 
-![Gif](coming soon)
+![Gif](https://raw.githubusercontent.com/GeoDerp/wpgtk.atom/master/thumbnails/fast.gif)
 
 **Description**: Atom Colour schemes with wpgtk support  
 **Note**: *Not the best, will likely add to/upgrade the themes down the tack*  
