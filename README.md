@@ -25,7 +25,9 @@
   - Open wpgtk (wpg) app and in *Templates Tab* readd the symlink for the two config files:     
     ``Templates Tab > Add > ``   
     ``~/.atom/packages/wpgtk-theme-syntax/styles/colors.less ``      
-    ``~/.atom/packages/wpgtk-one-dark-ui/styles/ui-variables-custom.less`` <br/>
+    ``~/.atom/packages/wpgtk-one-dark-ui/styles/ui-variables-custom.less`` 
+  
+  - Open Atom and set the theme via the "UI Theme & Syntax Theme " drop-down in the "Themes" tab of the Settings View <br/>
   
 ### Approach two - *command line (**Recommended**)*
   In your terminal of choice, Past the following lines:
@@ -39,6 +41,7 @@
   mv ~/wpgtk.atom/templates/wpgtk-theme-syntax_styles_colors.less.base ~/.config/wpg/templates/
   mv ~/wpgtk.atom/wpgtk-one-dark-ui ~/.atom/packages/
   mv ~/wpgtk.atom/wpgtk-theme-syntax ~/.atom/packages/
+  # you may still have to enable the theme via the "UI Theme & Syntax Theme " drop-down in the "Themes" tab of the Settings View
   wpg --link ~/.config/wpg/templates/wpgtk-theme-syntax_styles_colors.less.base ~/.atom/packages/wpgtk-theme-syntax/styles/colors.less
   wpg --link ~/.config/wpg/templates/wpgtk-one-dark-ui_styles_ui-variables-custom.less.base ~/.atom/packages/wpgtk-one-dark-ui/styles/ui-variables-custom.less
   # optional, if you want to delete the root folder:
