@@ -44,8 +44,11 @@
   # you may still have to enable the theme via the "UI Theme & Syntax Theme " drop-down in the "Themes" tab of the Settings View
   wpg --link ~/.config/wpg/templates/wpgtk-theme-syntax_styles_colors.less.base ~/.atom/packages/wpgtk-theme-syntax/styles/colors.less
   wpg --link ~/.config/wpg/templates/wpgtk-one-dark-ui_styles_ui-variables-custom.less.base ~/.atom/packages/wpgtk-one-dark-ui/styles/ui-variables-custom.less
+  ln -s ~/.atom/packages/wpgtk-theme-syntax/styles/colors.less ~/.config/wpg/templates/wpgtk-theme-syntax_styles_colors.less
+  ln -s ~/.atom/packages/wpgtk-one-dark-ui/styles/ui-variables-custom.less ~/.config/wpg/templates/wpgtk-one-dark-ui_styles_ui-variables-custom.less
   # optional, if you want to delete the root folder:
   sudo rm -r ~/wpgtk.atom
+  
   ```
 
 ### Note:  
