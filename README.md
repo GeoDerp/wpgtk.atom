@@ -1,5 +1,5 @@
 # wpgtk.atom
-<a href="https://github.com/GeoDerp/SwayWM_Build/edit/master/README.md"><img src="https://img.shields.io/badge/Main%20Repo-SwayWM_Build-red.svg?style=for-the-badge&logo="></a>
+<a href="https://github.com/GeoDerp/SwayWM_Build"><img src="https://img.shields.io/badge/Main%20Repo-SwayWM_Build-red.svg?style=for-the-badge&logo="></a>
 <a href="https://atom.io/"><img src="https://img.shields.io/badge/IDE-Atom-brightgreen.svg?style=for-the-badge&logo=Atom"></a>
 <a href="https://github.com/deviantfero/wpgtk"><img src="https://img.shields.io/badge/package-wpgtk-red.svg?style=for-the-badge&logo="></a>
 <a href="https://github.com/atom/one-dark-ui"><img src="https://img.shields.io/badge/UI%20theme-One%20Dark-brightgreen.svg?style=for-the-badge&logo=Atom"></a>
